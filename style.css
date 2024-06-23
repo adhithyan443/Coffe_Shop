@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headstyle {
+    font-family: "Black Ops One", system-ui;
+}
+
+.parastyle {
+    font-family: "Josefin Sans", sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+    top: 0;
+    background-color: rgb(220, 153, 60);
+    width: 100%;
+
+}
+
+.navbar img {
+    width: 110px;
+}
+
+.navbar .headstyle {
+    font-size: 750%;
+    height: auto;
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 153, 60);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main {
+    background-color: rgb(236, 208, 118);
+}
+
+.heading {
+    font-size: 55px;
+    text-align: center;
+}
+
+.content {
+    border: 1px solid black;
+    margin: 50px;
+    padding: 50px;
+    margin-left: 19%;
+    margin-right: 19%;
+    font-size: 20px;
+}
+
+.type-heading {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 4px black;
+    font-style: italic;
+}
+
+.type-para {
+
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px;
+
+}
+
+.type-para ul,
+p {
+    font-size: 18px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.type-para ul {
+    margin: 23px;
+}
+
+li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.brand .img1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.brand .img2{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    float: right;
+}
+
+.brand-head {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-bottom: -11px;
+
+}
+
+.brand-intro {
+    margin-left: 05%;
+    margin-right: 5%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+.gallery{
+    
+    
+    background-color: rgb(220, 153, 60);
+    margin-left: 5%;
+    margin-right: 5%; 
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 19%;
+    padding-right: 19%;
+
+    
+}
+
+.gallery img{
+    width: 250px;
+    height: 250px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;    
+}
+
+.gallery .row{
+    
+   
+   margin-bottom: 50px;
+}
+
+.gallery img:hover{
+    box-shadow: -1px 1px 7px 2px;
+}
+
+form{
+    background-color: rgb(220, 153, 60);
+    margin: 20px;
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 3px solid;
+    border-radius: 8px;
+}
+
+form .btn{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(92, 53, 26);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+form input{
+    height: 30px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+form table{
+    padding: 80px;
+    margin: 10px;
+}
+
+form textarea{
+    height: 65px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+form table td{
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(220, 153, 60);
+    padding: 20px;
+    
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+footer img{
+    width:150px;
+    height:150px;
+}
+footer .reach{
+    align-items: center;
+    justify-content: center;
+}
+
+footer .reach-logo{
+    display: flex;
+}
